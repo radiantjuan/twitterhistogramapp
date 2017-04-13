@@ -32,8 +32,9 @@
 
 <div class="container-fluid histogram">
 	<i class="fa fa-twitter"></i>
-	<h1>Tweet Histogram of <img src="{{userprofpic}}" style="width: 64px; height:64px;"> <a href="{{screennameurl}}" target="_blank">@{{screenname}}</a></h1>
+	<h1>Tweet Histogram of <img src="{{userprofpic}}" style="width: 64px; height:64px;"> <a href="{{screennameurl}}" target="_blank">@{{screenname}}</a> of his/her last 500 tweets</h1>
 	<h3>TOTAL NUMBER OF TWEETS: {{totaltweet}}</h3>
+	<button class="btn btn-primary btn-find-another" ng-click="showmodal()">Find another person</button>
 	<canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-options="options" chart-dataset-override="datasetOverride" chart-click="onClick">
 	</canvas>
 </div>

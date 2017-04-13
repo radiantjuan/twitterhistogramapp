@@ -64,6 +64,10 @@
 					]
 				}
 			};
+
+			$scope.showmodal = function(){
+				$('#myModal').modal('show');
+			}
         }
     ]);
     
