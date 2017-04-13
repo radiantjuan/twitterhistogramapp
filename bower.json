@@ -1,0 +1,23 @@
+{
+  "name": "twitterapp",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Radiant Juan <radiantcjuan@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "twitterapp"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chart.js": "^2.5.0"
+  }
+}

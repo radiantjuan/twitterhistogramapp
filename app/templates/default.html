@@ -1,0 +1,39 @@
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+	<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+				<i class="fa fa-twitter"></i>
+				<h1 class="modal-title">Search Someone Here...</h1>
+				<h4 class="modal-title">please type in the screen name (e.g. @juandelacruz)</h4>
+			</div>
+			<div class="modal-body">
+				<div class="container-fluid">
+					<div class="input-group input-group-lg">
+						<span class="input-group-addon" id="sizing-addon1"><i class="fa fa-at fa-lg"></i></span>
+						<input type="text" ng-model="screenname" class="form-control" placeholder="Search Here..." aria-describedby="sizing-addon1">
+					</div>
+					<div class="cont">
+						<a class="btn btn-primary btn-lg" href="#" role="button" ng-click="gettweets()">
+							<i class="glyphicon glyphicon-search"></i> Search
+						</a>
+						<div class="loading-container">
+							<i class="fa fa-circle-o-notch fa-spin"></i>
+							<p>Generating report.. this will take some time.. please wait a bit...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid histogram">
+	<i class="fa fa-twitter"></i>
+	<h1>Tweet Histogram of <img src="{{userprofpic}}" style="width: 64px; height:64px;"> <a href="{{screennameurl}}" target="_blank">@{{screenname}}</a></h1>
+	<h3>TOTAL NUMBER OF TWEETS: {{totaltweet}}</h3>
+	<canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-options="options" chart-dataset-override="datasetOverride" chart-click="onClick">
+	</canvas>
+</div>
