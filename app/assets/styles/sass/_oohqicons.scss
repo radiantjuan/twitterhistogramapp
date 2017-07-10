@@ -1,0 +1,3856 @@
+@font-face {
+  font-family: 'oohqicons';
+  src:
+    url('#{$icomoon-font-path}/oohqicons.ttf?f9864c') format('truetype'),
+    url('#{$icomoon-font-path}/oohqicons.woff?f9864c') format('woff'),
+    url('#{$icomoon-font-path}/oohqicons.svg?f9864c#oohqicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'oohqicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.oohq-icon-home .path1 {
+  &:before {
+    content: $oohq-icon-home-path1;  
+    color: rgb(228, 231, 237);
+  }
+}
+.oohq-icon-home .path2 {
+  &:before {
+    content: $oohq-icon-home-path2;  
+    margin-left: -1em;  
+    color: rgb(184, 192, 204);
+  }
+}
+.oohq-icon-home .path3 {
+  &:before {
+    content: $oohq-icon-home-path3;  
+    margin-left: -1em;  
+    color: rgb(184, 192, 204);
+  }
+}
+.oohq-icon-home .path4 {
+  &:before {
+    content: $oohq-icon-home-path4;  
+    margin-left: -1em;  
+    color: rgb(249, 152, 152);
+  }
+}
+.oohq-icon-home .path5 {
+  &:before {
+    content: $oohq-icon-home-path5;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-home .path6 {
+  &:before {
+    content: $oohq-icon-home-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-user .path1 {
+  &:before {
+    content: $oohq-icon-user-path1;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-user .path2 {
+  &:before {
+    content: $oohq-icon-user-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-user .path3 {
+  &:before {
+    content: $oohq-icon-user-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-hours_circle .path1 {
+  &:before {
+    content: $oohq-icon-hours_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-hours_circle .path2 {
+  &:before {
+    content: $oohq-icon-hours_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-hours_circle .path3 {
+  &:before {
+    content: $oohq-icon-hours_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-hours_circle .path4 {
+  &:before {
+    content: $oohq-icon-hours_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(223, 225, 226);
+  }
+}
+.oohq-icon-hours_circle .path5 {
+  &:before {
+    content: $oohq-icon-hours_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(191, 191, 192);
+  }
+}
+.oohq-icon-hours_circle .path6 {
+  &:before {
+    content: $oohq-icon-hours_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-hours_circle .path7 {
+  &:before {
+    content: $oohq-icon-hours_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(193, 75, 66);
+  }
+}
+.oohq-icon-hours_circle .path8 {
+  &:before {
+    content: $oohq-icon-hours_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-hours_circle .path9 {
+  &:before {
+    content: $oohq-icon-hours_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(228, 230, 230);
+  }
+}
+.oohq-icon-hours_circle .path10 {
+  &:before {
+    content: $oohq-icon-hours_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-hours_circle .path11 {
+  &:before {
+    content: $oohq-icon-hours_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(208, 210, 211);
+  }
+}
+.oohq-icon-hours_circle .path12 {
+  &:before {
+    content: $oohq-icon-hours_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-hours .path1 {
+  &:before {
+    content: $oohq-icon-hours-path1;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-hours .path2 {
+  &:before {
+    content: $oohq-icon-hours-path2;  
+    margin-left: -1em;  
+    color: rgb(223, 225, 226);
+  }
+}
+.oohq-icon-hours .path3 {
+  &:before {
+    content: $oohq-icon-hours-path3;  
+    margin-left: -1em;  
+    color: rgb(191, 191, 192);
+  }
+}
+.oohq-icon-hours .path4 {
+  &:before {
+    content: $oohq-icon-hours-path4;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-hours .path5 {
+  &:before {
+    content: $oohq-icon-hours-path5;  
+    margin-left: -1em;  
+    color: rgb(193, 75, 66);
+  }
+}
+.oohq-icon-hours .path6 {
+  &:before {
+    content: $oohq-icon-hours-path6;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-hours .path7 {
+  &:before {
+    content: $oohq-icon-hours-path7;  
+    margin-left: -1em;  
+    color: rgb(228, 230, 230);
+  }
+}
+.oohq-icon-hours .path8 {
+  &:before {
+    content: $oohq-icon-hours-path8;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-hours .path9 {
+  &:before {
+    content: $oohq-icon-hours-path9;  
+    margin-left: -1em;  
+    color: rgb(208, 210, 211);
+  }
+}
+.oohq-icon-import_circle .path1 {
+  &:before {
+    content: $oohq-icon-import_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-import_circle .path2 {
+  &:before {
+    content: $oohq-icon-import_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-import_circle .path3 {
+  &:before {
+    content: $oohq-icon-import_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-import_circle .path4 {
+  &:before {
+    content: $oohq-icon-import_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-import_circle .path5 {
+  &:before {
+    content: $oohq-icon-import_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(227, 229, 228);
+  }
+}
+.oohq-icon-import_circle .path6 {
+  &:before {
+    content: $oohq-icon-import_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(192, 47, 57);
+  }
+}
+.oohq-icon-import_circle .path7 {
+  &:before {
+    content: $oohq-icon-import_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(192, 47, 57);
+  }
+}
+.oohq-icon-import_circle .path8 {
+  &:before {
+    content: $oohq-icon-import_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-import_circle .path9 {
+  &:before {
+    content: $oohq-icon-import_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-import_circle .path10 {
+  &:before {
+    content: $oohq-icon-import_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-import .path1 {
+  &:before {
+    content: $oohq-icon-import-path1;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-import .path2 {
+  &:before {
+    content: $oohq-icon-import-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-import .path3 {
+  &:before {
+    content: $oohq-icon-import-path3;  
+    margin-left: -1em;  
+    color: rgb(227, 229, 228);
+  }
+}
+.oohq-icon-import .path4 {
+  &:before {
+    content: $oohq-icon-import-path4;  
+    margin-left: -1em;  
+    color: rgb(192, 47, 57);
+  }
+}
+.oohq-icon-import .path5 {
+  &:before {
+    content: $oohq-icon-import-path5;  
+    margin-left: -1em;  
+    color: rgb(192, 47, 57);
+  }
+}
+.oohq-icon-import .path6 {
+  &:before {
+    content: $oohq-icon-import-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-import .path7 {
+  &:before {
+    content: $oohq-icon-import-path7;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-location_circle .path1 {
+  &:before {
+    content: $oohq-icon-location_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-location_circle .path2 {
+  &:before {
+    content: $oohq-icon-location_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-location_circle .path3 {
+  &:before {
+    content: $oohq-icon-location_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(79, 191, 159);
+  }
+}
+.oohq-icon-location_circle .path4 {
+  &:before {
+    content: $oohq-icon-location_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-location_circle .path5 {
+  &:before {
+    content: $oohq-icon-location_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-location_circle .path6 {
+  &:before {
+    content: $oohq-icon-location_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(252, 212, 99);
+  }
+}
+.oohq-icon-location_circle .path7 {
+  &:before {
+    content: $oohq-icon-location_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-location_circle .path8 {
+  &:before {
+    content: $oohq-icon-location_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(234, 82, 93);
+  }
+}
+.oohq-icon-location_circle .path9 {
+  &:before {
+    content: $oohq-icon-location_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-location .path1 {
+  &:before {
+    content: $oohq-icon-location-path1;  
+    color: rgb(79, 191, 159);
+  }
+}
+.oohq-icon-location .path2 {
+  &:before {
+    content: $oohq-icon-location-path2;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-location .path3 {
+  &:before {
+    content: $oohq-icon-location-path3;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-location .path4 {
+  &:before {
+    content: $oohq-icon-location-path4;  
+    margin-left: -1em;  
+    color: rgb(252, 212, 99);
+  }
+}
+.oohq-icon-location .path5 {
+  &:before {
+    content: $oohq-icon-location-path5;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-location .path6 {
+  &:before {
+    content: $oohq-icon-location-path6;  
+    margin-left: -1em;  
+    color: rgb(234, 82, 93);
+  }
+}
+.oohq-icon-styles_circle .path1 {
+  &:before {
+    content: $oohq-icon-styles_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-styles_circle .path2 {
+  &:before {
+    content: $oohq-icon-styles_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-styles_circle .path3 {
+  &:before {
+    content: $oohq-icon-styles_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-styles_circle .path4 {
+  &:before {
+    content: $oohq-icon-styles_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-styles_circle .path5 {
+  &:before {
+    content: $oohq-icon-styles_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-styles_circle .path6 {
+  &:before {
+    content: $oohq-icon-styles_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(148, 165, 165);
+  }
+}
+.oohq-icon-styles_circle .path7 {
+  &:before {
+    content: $oohq-icon-styles_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(237, 240, 241);
+  }
+}
+.oohq-icon-styles_circle .path8 {
+  &:before {
+    content: $oohq-icon-styles_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-styles_circle .path9 {
+  &:before {
+    content: $oohq-icon-styles_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(238, 132, 145);
+  }
+}
+.oohq-icon-styles_circle .path10 {
+  &:before {
+    content: $oohq-icon-styles_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(172, 204, 203);
+  }
+}
+.oohq-icon-styles_circle .path11 {
+  &:before {
+    content: $oohq-icon-styles_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-styles_circle .path12 {
+  &:before {
+    content: $oohq-icon-styles_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(242, 113, 121);
+  }
+}
+.oohq-icon-styles_circle .path13 {
+  &:before {
+    content: $oohq-icon-styles_circle-path13;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-styles_circle .path14 {
+  &:before {
+    content: $oohq-icon-styles_circle-path14;  
+    margin-left: -1em;  
+    color: rgb(148, 165, 165);
+  }
+}
+.oohq-icon-styles_circle .path15 {
+  &:before {
+    content: $oohq-icon-styles_circle-path15;  
+    margin-left: -1em;  
+    color: rgb(126, 140, 141);
+  }
+}
+.oohq-icon-styles_circle .path16 {
+  &:before {
+    content: $oohq-icon-styles_circle-path16;  
+    margin-left: -1em;  
+    color: rgb(249, 156, 55);
+  }
+}
+.oohq-icon-styles_circle .path17 {
+  &:before {
+    content: $oohq-icon-styles_circle-path17;  
+    margin-left: -1em;  
+    color: rgb(244, 195, 65);
+  }
+}
+.oohq-icon-styles_circle .path18 {
+  &:before {
+    content: $oohq-icon-styles_circle-path18;  
+    margin-left: -1em;  
+    color: rgb(28, 128, 182);
+  }
+}
+.oohq-icon-styles_circle .path19 {
+  &:before {
+    content: $oohq-icon-styles_circle-path19;  
+    margin-left: -1em;  
+    color: rgb(34, 153, 213);
+  }
+}
+.oohq-icon-styles_circle .path20 {
+  &:before {
+    content: $oohq-icon-styles_circle-path20;  
+    margin-left: -1em;  
+    color: rgb(7, 175, 103);
+  }
+}
+.oohq-icon-styles_circle .path21 {
+  &:before {
+    content: $oohq-icon-styles_circle-path21;  
+    margin-left: -1em;  
+    color: rgb(66, 184, 117);
+  }
+}
+.oohq-icon-styles_circle .path22 {
+  &:before {
+    content: $oohq-icon-styles_circle-path22;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-styles .path1 {
+  &:before {
+    content: $oohq-icon-styles-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-styles .path2 {
+  &:before {
+    content: $oohq-icon-styles-path2;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-styles .path3 {
+  &:before {
+    content: $oohq-icon-styles-path3;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-styles .path4 {
+  &:before {
+    content: $oohq-icon-styles-path4;  
+    margin-left: -1em;  
+    color: rgb(148, 165, 165);
+  }
+}
+.oohq-icon-styles .path5 {
+  &:before {
+    content: $oohq-icon-styles-path5;  
+    margin-left: -1em;  
+    color: rgb(237, 240, 241);
+  }
+}
+.oohq-icon-styles .path6 {
+  &:before {
+    content: $oohq-icon-styles-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-styles .path7 {
+  &:before {
+    content: $oohq-icon-styles-path7;  
+    margin-left: -1em;  
+    color: rgb(238, 132, 145);
+  }
+}
+.oohq-icon-styles .path8 {
+  &:before {
+    content: $oohq-icon-styles-path8;  
+    margin-left: -1em;  
+    color: rgb(172, 204, 203);
+  }
+}
+.oohq-icon-styles .path9 {
+  &:before {
+    content: $oohq-icon-styles-path9;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-styles .path10 {
+  &:before {
+    content: $oohq-icon-styles-path10;  
+    margin-left: -1em;  
+    color: rgb(242, 113, 121);
+  }
+}
+.oohq-icon-styles .path11 {
+  &:before {
+    content: $oohq-icon-styles-path11;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-styles .path12 {
+  &:before {
+    content: $oohq-icon-styles-path12;  
+    margin-left: -1em;  
+    color: rgb(148, 165, 165);
+  }
+}
+.oohq-icon-styles .path13 {
+  &:before {
+    content: $oohq-icon-styles-path13;  
+    margin-left: -1em;  
+    color: rgb(126, 140, 141);
+  }
+}
+.oohq-icon-styles .path14 {
+  &:before {
+    content: $oohq-icon-styles-path14;  
+    margin-left: -1em;  
+    color: rgb(249, 156, 55);
+  }
+}
+.oohq-icon-styles .path15 {
+  &:before {
+    content: $oohq-icon-styles-path15;  
+    margin-left: -1em;  
+    color: rgb(244, 195, 65);
+  }
+}
+.oohq-icon-styles .path16 {
+  &:before {
+    content: $oohq-icon-styles-path16;  
+    margin-left: -1em;  
+    color: rgb(28, 128, 182);
+  }
+}
+.oohq-icon-styles .path17 {
+  &:before {
+    content: $oohq-icon-styles-path17;  
+    margin-left: -1em;  
+    color: rgb(34, 153, 213);
+  }
+}
+.oohq-icon-styles .path18 {
+  &:before {
+    content: $oohq-icon-styles-path18;  
+    margin-left: -1em;  
+    color: rgb(7, 175, 103);
+  }
+}
+.oohq-icon-styles .path19 {
+  &:before {
+    content: $oohq-icon-styles-path19;  
+    margin-left: -1em;  
+    color: rgb(66, 184, 117);
+  }
+}
+.oohq-icon-tables_circle .path1 {
+  &:before {
+    content: $oohq-icon-tables_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-tables_circle .path2 {
+  &:before {
+    content: $oohq-icon-tables_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-tables_circle .path3 {
+  &:before {
+    content: $oohq-icon-tables_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-tables_circle .path4 {
+  &:before {
+    content: $oohq-icon-tables_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-tables_circle .path5 {
+  &:before {
+    content: $oohq-icon-tables_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-tables_circle .path6 {
+  &:before {
+    content: $oohq-icon-tables_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-tables_circle .path7 {
+  &:before {
+    content: $oohq-icon-tables_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-tables_circle .path8 {
+  &:before {
+    content: $oohq-icon-tables_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-tables_circle .path9 {
+  &:before {
+    content: $oohq-icon-tables_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-tables_circle .path10 {
+  &:before {
+    content: $oohq-icon-tables_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-tables .path1 {
+  &:before {
+    content: $oohq-icon-tables-path1;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-tables .path2 {
+  &:before {
+    content: $oohq-icon-tables-path2;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-tables .path3 {
+  &:before {
+    content: $oohq-icon-tables-path3;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-tables .path4 {
+  &:before {
+    content: $oohq-icon-tables-path4;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-tables .path5 {
+  &:before {
+    content: $oohq-icon-tables-path5;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-tables .path6 {
+  &:before {
+    content: $oohq-icon-tables-path6;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-tables .path7 {
+  &:before {
+    content: $oohq-icon-tables-path7;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-website_circle .path1 {
+  &:before {
+    content: $oohq-icon-website_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website_circle .path2 {
+  &:before {
+    content: $oohq-icon-website_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-website_circle .path3 {
+  &:before {
+    content: $oohq-icon-website_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-website_circle .path4 {
+  &:before {
+    content: $oohq-icon-website_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-website_circle .path5 {
+  &:before {
+    content: $oohq-icon-website_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-website_circle .path6 {
+  &:before {
+    content: $oohq-icon-website_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(99, 155, 153);
+  }
+}
+.oohq-icon-website_circle .path7 {
+  &:before {
+    content: $oohq-icon-website_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(99, 155, 153);
+  }
+}
+.oohq-icon-website_circle .path8 {
+  &:before {
+    content: $oohq-icon-website_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website_circle .path9 {
+  &:before {
+    content: $oohq-icon-website_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website_circle .path10 {
+  &:before {
+    content: $oohq-icon-website_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website_circle .path11 {
+  &:before {
+    content: $oohq-icon-website_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website_circle .path12 {
+  &:before {
+    content: $oohq-icon-website_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website_circle .path13 {
+  &:before {
+    content: $oohq-icon-website_circle-path13;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website_circle .path14 {
+  &:before {
+    content: $oohq-icon-website_circle-path14;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-website_circle .path15 {
+  &:before {
+    content: $oohq-icon-website_circle-path15;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-website .path1 {
+  &:before {
+    content: $oohq-icon-website-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-website .path2 {
+  &:before {
+    content: $oohq-icon-website-path2;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-website .path3 {
+  &:before {
+    content: $oohq-icon-website-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-website .path4 {
+  &:before {
+    content: $oohq-icon-website-path4;  
+    margin-left: -1em;  
+    color: rgb(99, 155, 153);
+  }
+}
+.oohq-icon-website .path5 {
+  &:before {
+    content: $oohq-icon-website-path5;  
+    margin-left: -1em;  
+    color: rgb(99, 155, 153);
+  }
+}
+.oohq-icon-website .path6 {
+  &:before {
+    content: $oohq-icon-website-path6;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website .path7 {
+  &:before {
+    content: $oohq-icon-website-path7;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website .path8 {
+  &:before {
+    content: $oohq-icon-website-path8;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website .path9 {
+  &:before {
+    content: $oohq-icon-website-path9;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website .path10 {
+  &:before {
+    content: $oohq-icon-website-path10;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website .path11 {
+  &:before {
+    content: $oohq-icon-website-path11;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-website .path12 {
+  &:before {
+    content: $oohq-icon-website-path12;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-email_circle .path1 {
+  &:before {
+    content: $oohq-icon-email_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-email_circle .path2 {
+  &:before {
+    content: $oohq-icon-email_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-email_circle .path3 {
+  &:before {
+    content: $oohq-icon-email_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-email_circle .path4 {
+  &:before {
+    content: $oohq-icon-email_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-email_circle .path5 {
+  &:before {
+    content: $oohq-icon-email_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-email_circle .path6 {
+  &:before {
+    content: $oohq-icon-email_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-email_circle .path7 {
+  &:before {
+    content: $oohq-icon-email_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-email_circle .path8 {
+  &:before {
+    content: $oohq-icon-email_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-email .path1 {
+  &:before {
+    content: $oohq-icon-email-path1;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-email .path2 {
+  &:before {
+    content: $oohq-icon-email-path2;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-email .path3 {
+  &:before {
+    content: $oohq-icon-email-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-email .path4 {
+  &:before {
+    content: $oohq-icon-email-path4;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-email .path5 {
+  &:before {
+    content: $oohq-icon-email-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-promos_circle .path1 {
+  &:before {
+    content: $oohq-icon-promos_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-promos_circle .path2 {
+  &:before {
+    content: $oohq-icon-promos_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-promos_circle .path3 {
+  &:before {
+    content: $oohq-icon-promos_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-promos_circle .path4 {
+  &:before {
+    content: $oohq-icon-promos_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-promos_circle .path5 {
+  &:before {
+    content: $oohq-icon-promos_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-promos_circle .path6 {
+  &:before {
+    content: $oohq-icon-promos_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-promos_circle .path7 {
+  &:before {
+    content: $oohq-icon-promos_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-promos_circle .path8 {
+  &:before {
+    content: $oohq-icon-promos_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-promos_circle .path9 {
+  &:before {
+    content: $oohq-icon-promos_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-promos .path1 {
+  &:before {
+    content: $oohq-icon-promos-path1;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-promos .path2 {
+  &:before {
+    content: $oohq-icon-promos-path2;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-promos .path3 {
+  &:before {
+    content: $oohq-icon-promos-path3;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-promos .path4 {
+  &:before {
+    content: $oohq-icon-promos-path4;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-promos .path5 {
+  &:before {
+    content: $oohq-icon-promos-path5;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-promos .path6 {
+  &:before {
+    content: $oohq-icon-promos-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-sms_circle .path1 {
+  &:before {
+    content: $oohq-icon-sms_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-sms_circle .path2 {
+  &:before {
+    content: $oohq-icon-sms_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-sms_circle .path3 {
+  &:before {
+    content: $oohq-icon-sms_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-sms_circle .path4 {
+  &:before {
+    content: $oohq-icon-sms_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-sms_circle .path5 {
+  &:before {
+    content: $oohq-icon-sms_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-sms_circle .path6 {
+  &:before {
+    content: $oohq-icon-sms_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-sms_circle .path7 {
+  &:before {
+    content: $oohq-icon-sms_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-sms_circle .path8 {
+  &:before {
+    content: $oohq-icon-sms_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-sms_circle .path9 {
+  &:before {
+    content: $oohq-icon-sms_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-sms_circle .path10 {
+  &:before {
+    content: $oohq-icon-sms_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-sms_circle .path11 {
+  &:before {
+    content: $oohq-icon-sms_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-sms .path1 {
+  &:before {
+    content: $oohq-icon-sms-path1;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-sms .path2 {
+  &:before {
+    content: $oohq-icon-sms-path2;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-sms .path3 {
+  &:before {
+    content: $oohq-icon-sms-path3;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-sms .path4 {
+  &:before {
+    content: $oohq-icon-sms-path4;  
+    margin-left: -1em;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-sms .path5 {
+  &:before {
+    content: $oohq-icon-sms-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-sms .path6 {
+  &:before {
+    content: $oohq-icon-sms-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-sms .path7 {
+  &:before {
+    content: $oohq-icon-sms-path7;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-sms .path8 {
+  &:before {
+    content: $oohq-icon-sms-path8;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-collection_circle .path1 {
+  &:before {
+    content: $oohq-icon-collection_circle-path1;  
+    color: rgb(26, 36, 45);
+  }
+}
+.oohq-icon-collection_circle .path2 {
+  &:before {
+    content: $oohq-icon-collection_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(12, 17, 20);
+  }
+}
+.oohq-icon-collection_circle .path3 {
+  &:before {
+    content: $oohq-icon-collection_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-collection_circle .path4 {
+  &:before {
+    content: $oohq-icon-collection_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(242, 102, 113);
+  }
+}
+.oohq-icon-collection_circle .path5 {
+  &:before {
+    content: $oohq-icon-collection_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-collection_circle .path6 {
+  &:before {
+    content: $oohq-icon-collection_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(186, 37, 48);
+  }
+}
+.oohq-icon-collection_circle .path7 {
+  &:before {
+    content: $oohq-icon-collection_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-collection_circle .path8 {
+  &:before {
+    content: $oohq-icon-collection_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-collection_circle .path9 {
+  &:before {
+    content: $oohq-icon-collection_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(242, 102, 113);
+  }
+}
+.oohq-icon-collection_circle .path10 {
+  &:before {
+    content: $oohq-icon-collection_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-collection_circle .path11 {
+  &:before {
+    content: $oohq-icon-collection_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(186, 37, 48);
+  }
+}
+.oohq-icon-collection_circle .path12 {
+  &:before {
+    content: $oohq-icon-collection_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-collection_circle .path13 {
+  &:before {
+    content: $oohq-icon-collection_circle-path13;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-collection_circle .path14 {
+  &:before {
+    content: $oohq-icon-collection_circle-path14;  
+    margin-left: -1em;  
+    color: rgb(242, 102, 113);
+  }
+}
+.oohq-icon-collection_circle .path15 {
+  &:before {
+    content: $oohq-icon-collection_circle-path15;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-collection_circle .path16 {
+  &:before {
+    content: $oohq-icon-collection_circle-path16;  
+    margin-left: -1em;  
+    color: rgb(186, 37, 48);
+  }
+}
+.oohq-icon-collection_circle .path17 {
+  &:before {
+    content: $oohq-icon-collection_circle-path17;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-collection .path1 {
+  &:before {
+    content: $oohq-icon-collection-path1;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-collection .path2 {
+  &:before {
+    content: $oohq-icon-collection-path2;  
+    margin-left: -1em;  
+    color: rgb(242, 102, 113);
+  }
+}
+.oohq-icon-collection .path3 {
+  &:before {
+    content: $oohq-icon-collection-path3;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-collection .path4 {
+  &:before {
+    content: $oohq-icon-collection-path4;  
+    margin-left: -1em;  
+    color: rgb(186, 37, 48);
+  }
+}
+.oohq-icon-collection .path5 {
+  &:before {
+    content: $oohq-icon-collection-path5;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-collection .path6 {
+  &:before {
+    content: $oohq-icon-collection-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-collection .path7 {
+  &:before {
+    content: $oohq-icon-collection-path7;  
+    margin-left: -1em;  
+    color: rgb(242, 102, 113);
+  }
+}
+.oohq-icon-collection .path8 {
+  &:before {
+    content: $oohq-icon-collection-path8;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-collection .path9 {
+  &:before {
+    content: $oohq-icon-collection-path9;  
+    margin-left: -1em;  
+    color: rgb(186, 37, 48);
+  }
+}
+.oohq-icon-collection .path10 {
+  &:before {
+    content: $oohq-icon-collection-path10;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-collection .path11 {
+  &:before {
+    content: $oohq-icon-collection-path11;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-collection .path12 {
+  &:before {
+    content: $oohq-icon-collection-path12;  
+    margin-left: -1em;  
+    color: rgb(242, 102, 113);
+  }
+}
+.oohq-icon-collection .path13 {
+  &:before {
+    content: $oohq-icon-collection-path13;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-collection .path14 {
+  &:before {
+    content: $oohq-icon-collection-path14;  
+    margin-left: -1em;  
+    color: rgb(186, 37, 48);
+  }
+}
+.oohq-icon-collection .path15 {
+  &:before {
+    content: $oohq-icon-collection-path15;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-combo_circle .path1 {
+  &:before {
+    content: $oohq-icon-combo_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-combo_circle .path2 {
+  &:before {
+    content: $oohq-icon-combo_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-combo_circle .path3 {
+  &:before {
+    content: $oohq-icon-combo_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(232, 234, 233);
+  }
+}
+.oohq-icon-combo_circle .path4 {
+  &:before {
+    content: $oohq-icon-combo_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(67, 91, 108);
+  }
+}
+.oohq-icon-combo_circle .path5 {
+  &:before {
+    content: $oohq-icon-combo_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(53, 75, 94);
+  }
+}
+.oohq-icon-combo_circle .path6 {
+  &:before {
+    content: $oohq-icon-combo_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-combo_circle .path7 {
+  &:before {
+    content: $oohq-icon-combo_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(109, 141, 139);
+  }
+}
+.oohq-icon-combo_circle .path8 {
+  &:before {
+    content: $oohq-icon-combo_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-combo_circle .path9 {
+  &:before {
+    content: $oohq-icon-combo_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-combo_circle .path10 {
+  &:before {
+    content: $oohq-icon-combo_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-combo_circle .path11 {
+  &:before {
+    content: $oohq-icon-combo_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(241, 102, 114);
+  }
+}
+.oohq-icon-combo_circle .path12 {
+  &:before {
+    content: $oohq-icon-combo_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-combo_circle .path13 {
+  &:before {
+    content: $oohq-icon-combo_circle-path13;  
+    margin-left: -1em;  
+    color: rgb(187, 38, 49);
+  }
+}
+.oohq-icon-combo_circle .path14 {
+  &:before {
+    content: $oohq-icon-combo_circle-path14;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-combo_circle .path15 {
+  &:before {
+    content: $oohq-icon-combo_circle-path15;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-combo .path1 {
+  &:before {
+    content: $oohq-icon-combo-path1;  
+    color: rgb(232, 234, 233);
+  }
+}
+.oohq-icon-combo .path2 {
+  &:before {
+    content: $oohq-icon-combo-path2;  
+    margin-left: -1em;  
+    color: rgb(67, 91, 108);
+  }
+}
+.oohq-icon-combo .path3 {
+  &:before {
+    content: $oohq-icon-combo-path3;  
+    margin-left: -1em;  
+    color: rgb(53, 75, 94);
+  }
+}
+.oohq-icon-combo .path4 {
+  &:before {
+    content: $oohq-icon-combo-path4;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-combo .path5 {
+  &:before {
+    content: $oohq-icon-combo-path5;  
+    margin-left: -1em;  
+    color: rgb(109, 141, 139);
+  }
+}
+.oohq-icon-combo .path6 {
+  &:before {
+    content: $oohq-icon-combo-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-combo .path7 {
+  &:before {
+    content: $oohq-icon-combo-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-combo .path8 {
+  &:before {
+    content: $oohq-icon-combo-path8;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-combo .path9 {
+  &:before {
+    content: $oohq-icon-combo-path9;  
+    margin-left: -1em;  
+    color: rgb(241, 102, 114);
+  }
+}
+.oohq-icon-combo .path10 {
+  &:before {
+    content: $oohq-icon-combo-path10;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-combo .path11 {
+  &:before {
+    content: $oohq-icon-combo-path11;  
+    margin-left: -1em;  
+    color: rgb(187, 38, 49);
+  }
+}
+.oohq-icon-combo .path12 {
+  &:before {
+    content: $oohq-icon-combo-path12;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-group_circle .path1 {
+  &:before {
+    content: $oohq-icon-group_circle-path1;  
+    color: rgb(26, 36, 45);
+  }
+}
+.oohq-icon-group_circle .path2 {
+  &:before {
+    content: $oohq-icon-group_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(12, 17, 20);
+  }
+}
+.oohq-icon-group_circle .path3 {
+  &:before {
+    content: $oohq-icon-group_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-group_circle .path4 {
+  &:before {
+    content: $oohq-icon-group_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(77, 77, 77);
+  }
+}
+.oohq-icon-group_circle .path5 {
+  &:before {
+    content: $oohq-icon-group_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 212, 29);
+  }
+}
+.oohq-icon-group_circle .path6 {
+  &:before {
+    content: $oohq-icon-group_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(239, 199, 29);
+  }
+}
+.oohq-icon-group_circle .path7 {
+  &:before {
+    content: $oohq-icon-group_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(77, 77, 77);
+  }
+}
+.oohq-icon-group_circle .path8 {
+  &:before {
+    content: $oohq-icon-group_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(237, 143, 32);
+  }
+}
+.oohq-icon-group_circle .path9 {
+  &:before {
+    content: $oohq-icon-group_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group_circle .path10 {
+  &:before {
+    content: $oohq-icon-group_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group_circle .path11 {
+  &:before {
+    content: $oohq-icon-group_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group_circle .path12 {
+  &:before {
+    content: $oohq-icon-group_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group_circle .path13 {
+  &:before {
+    content: $oohq-icon-group_circle-path13;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group_circle .path14 {
+  &:before {
+    content: $oohq-icon-group_circle-path14;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group_circle .path15 {
+  &:before {
+    content: $oohq-icon-group_circle-path15;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group_circle .path16 {
+  &:before {
+    content: $oohq-icon-group_circle-path16;  
+    margin-left: -1em;  
+    color: rgb(237, 143, 32);
+  }
+}
+.oohq-icon-group_circle .path17 {
+  &:before {
+    content: $oohq-icon-group_circle-path17;  
+    margin-left: -1em;  
+    color: rgb(155, 96, 38);
+  }
+}
+.oohq-icon-group_circle .path18 {
+  &:before {
+    content: $oohq-icon-group_circle-path18;  
+    margin-left: -1em;  
+    color: rgb(237, 143, 32);
+  }
+}
+.oohq-icon-group_circle .path19 {
+  &:before {
+    content: $oohq-icon-group_circle-path19;  
+    margin-left: -1em;  
+    color: rgb(155, 96, 38);
+  }
+}
+.oohq-icon-group_circle .path20 {
+  &:before {
+    content: $oohq-icon-group_circle-path20;  
+    margin-left: -1em;  
+    color: rgb(101, 156, 53);
+  }
+}
+.oohq-icon-group_circle .path21 {
+  &:before {
+    content: $oohq-icon-group_circle-path21;  
+    margin-left: -1em;  
+    color: rgb(136, 192, 87);
+  }
+}
+.oohq-icon-group_circle .path22 {
+  &:before {
+    content: $oohq-icon-group_circle-path22;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-group_circle .path23 {
+  &:before {
+    content: $oohq-icon-group_circle-path23;  
+    margin-left: -1em;  
+    color: rgb(242, 102, 113);
+  }
+}
+.oohq-icon-group_circle .path24 {
+  &:before {
+    content: $oohq-icon-group_circle-path24;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-group_circle .path25 {
+  &:before {
+    content: $oohq-icon-group_circle-path25;  
+    margin-left: -1em;  
+    color: rgb(186, 37, 48);
+  }
+}
+.oohq-icon-group_circle .path26 {
+  &:before {
+    content: $oohq-icon-group_circle-path26;  
+    margin-left: -1em;  
+    color: rgb(101, 156, 53);
+  }
+}
+.oohq-icon-group_circle .path27 {
+  &:before {
+    content: $oohq-icon-group_circle-path27;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-group_circle .path28 {
+  &:before {
+    content: $oohq-icon-group_circle-path28;  
+    margin-left: -1em;  
+    color: rgb(206, 213, 224);
+  }
+}
+.oohq-icon-group_circle .path29 {
+  &:before {
+    content: $oohq-icon-group_circle-path29;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-group .path1 {
+  &:before {
+    content: $oohq-icon-group-path1;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-group .path2 {
+  &:before {
+    content: $oohq-icon-group-path2;  
+    margin-left: -1em;  
+    color: rgb(77, 77, 77);
+  }
+}
+.oohq-icon-group .path3 {
+  &:before {
+    content: $oohq-icon-group-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 212, 29);
+  }
+}
+.oohq-icon-group .path4 {
+  &:before {
+    content: $oohq-icon-group-path4;  
+    margin-left: -1em;  
+    color: rgb(239, 199, 29);
+  }
+}
+.oohq-icon-group .path5 {
+  &:before {
+    content: $oohq-icon-group-path5;  
+    margin-left: -1em;  
+    color: rgb(77, 77, 77);
+  }
+}
+.oohq-icon-group .path6 {
+  &:before {
+    content: $oohq-icon-group-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 143, 32);
+  }
+}
+.oohq-icon-group .path7 {
+  &:before {
+    content: $oohq-icon-group-path7;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group .path8 {
+  &:before {
+    content: $oohq-icon-group-path8;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group .path9 {
+  &:before {
+    content: $oohq-icon-group-path9;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group .path10 {
+  &:before {
+    content: $oohq-icon-group-path10;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group .path11 {
+  &:before {
+    content: $oohq-icon-group-path11;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group .path12 {
+  &:before {
+    content: $oohq-icon-group-path12;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group .path13 {
+  &:before {
+    content: $oohq-icon-group-path13;  
+    margin-left: -1em;  
+    color: rgb(239, 119, 29);
+  }
+}
+.oohq-icon-group .path14 {
+  &:before {
+    content: $oohq-icon-group-path14;  
+    margin-left: -1em;  
+    color: rgb(237, 143, 32);
+  }
+}
+.oohq-icon-group .path15 {
+  &:before {
+    content: $oohq-icon-group-path15;  
+    margin-left: -1em;  
+    color: rgb(155, 96, 38);
+  }
+}
+.oohq-icon-group .path16 {
+  &:before {
+    content: $oohq-icon-group-path16;  
+    margin-left: -1em;  
+    color: rgb(237, 143, 32);
+  }
+}
+.oohq-icon-group .path17 {
+  &:before {
+    content: $oohq-icon-group-path17;  
+    margin-left: -1em;  
+    color: rgb(155, 96, 38);
+  }
+}
+.oohq-icon-group .path18 {
+  &:before {
+    content: $oohq-icon-group-path18;  
+    margin-left: -1em;  
+    color: rgb(101, 156, 53);
+  }
+}
+.oohq-icon-group .path19 {
+  &:before {
+    content: $oohq-icon-group-path19;  
+    margin-left: -1em;  
+    color: rgb(136, 192, 87);
+  }
+}
+.oohq-icon-group .path20 {
+  &:before {
+    content: $oohq-icon-group-path20;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-group .path21 {
+  &:before {
+    content: $oohq-icon-group-path21;  
+    margin-left: -1em;  
+    color: rgb(242, 102, 113);
+  }
+}
+.oohq-icon-group .path22 {
+  &:before {
+    content: $oohq-icon-group-path22;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-group .path23 {
+  &:before {
+    content: $oohq-icon-group-path23;  
+    margin-left: -1em;  
+    color: rgb(186, 37, 48);
+  }
+}
+.oohq-icon-group .path24 {
+  &:before {
+    content: $oohq-icon-group-path24;  
+    margin-left: -1em;  
+    color: rgb(101, 156, 53);
+  }
+}
+.oohq-icon-group .path25 {
+  &:before {
+    content: $oohq-icon-group-path25;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-group .path26 {
+  &:before {
+    content: $oohq-icon-group-path26;  
+    margin-left: -1em;  
+    color: rgb(206, 213, 224);
+  }
+}
+.oohq-icon-ingredients_circle .path1 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-ingredients_circle .path2 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-ingredients_circle .path3 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-ingredients_circle .path4 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-ingredients_circle .path5 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(243, 109, 83);
+  }
+}
+.oohq-icon-ingredients_circle .path6 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(232, 87, 63);
+  }
+}
+.oohq-icon-ingredients_circle .path7 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(232, 87, 63);
+  }
+}
+.oohq-icon-ingredients_circle .path8 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-ingredients_circle .path9 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-ingredients_circle .path10 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(243, 190, 141);
+  }
+}
+.oohq-icon-ingredients_circle .path11 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(243, 190, 141);
+  }
+}
+.oohq-icon-ingredients_circle .path12 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(254, 210, 167);
+  }
+}
+.oohq-icon-ingredients_circle .path13 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path13;  
+    margin-left: -1em;  
+    color: rgb(254, 210, 167);
+  }
+}
+.oohq-icon-ingredients_circle .path14 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path14;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-ingredients_circle .path15 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path15;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-ingredients_circle .path16 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path16;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-ingredients_circle .path17 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path17;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-ingredients_circle .path18 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path18;  
+    margin-left: -1em;  
+    color: rgb(243, 190, 141);
+  }
+}
+.oohq-icon-ingredients_circle .path19 {
+  &:before {
+    content: $oohq-icon-ingredients_circle-path19;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-ingredients .path1 {
+  &:before {
+    content: $oohq-icon-ingredients-path1;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-ingredients .path2 {
+  &:before {
+    content: $oohq-icon-ingredients-path2;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-ingredients .path3 {
+  &:before {
+    content: $oohq-icon-ingredients-path3;  
+    margin-left: -1em;  
+    color: rgb(243, 109, 83);
+  }
+}
+.oohq-icon-ingredients .path4 {
+  &:before {
+    content: $oohq-icon-ingredients-path4;  
+    margin-left: -1em;  
+    color: rgb(232, 87, 63);
+  }
+}
+.oohq-icon-ingredients .path5 {
+  &:before {
+    content: $oohq-icon-ingredients-path5;  
+    margin-left: -1em;  
+    color: rgb(232, 87, 63);
+  }
+}
+.oohq-icon-ingredients .path6 {
+  &:before {
+    content: $oohq-icon-ingredients-path6;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-ingredients .path7 {
+  &:before {
+    content: $oohq-icon-ingredients-path7;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-ingredients .path8 {
+  &:before {
+    content: $oohq-icon-ingredients-path8;  
+    margin-left: -1em;  
+    color: rgb(243, 190, 141);
+  }
+}
+.oohq-icon-ingredients .path9 {
+  &:before {
+    content: $oohq-icon-ingredients-path9;  
+    margin-left: -1em;  
+    color: rgb(243, 190, 141);
+  }
+}
+.oohq-icon-ingredients .path10 {
+  &:before {
+    content: $oohq-icon-ingredients-path10;  
+    margin-left: -1em;  
+    color: rgb(254, 210, 167);
+  }
+}
+.oohq-icon-ingredients .path11 {
+  &:before {
+    content: $oohq-icon-ingredients-path11;  
+    margin-left: -1em;  
+    color: rgb(254, 210, 167);
+  }
+}
+.oohq-icon-ingredients .path12 {
+  &:before {
+    content: $oohq-icon-ingredients-path12;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-ingredients .path13 {
+  &:before {
+    content: $oohq-icon-ingredients-path13;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-ingredients .path14 {
+  &:before {
+    content: $oohq-icon-ingredients-path14;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-ingredients .path15 {
+  &:before {
+    content: $oohq-icon-ingredients-path15;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-ingredients .path16 {
+  &:before {
+    content: $oohq-icon-ingredients-path16;  
+    margin-left: -1em;  
+    color: rgb(243, 190, 141);
+  }
+}
+.oohq-icon-items_circle .path1 {
+  &:before {
+    content: $oohq-icon-items_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-items_circle .path2 {
+  &:before {
+    content: $oohq-icon-items_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-items_circle .path3 {
+  &:before {
+    content: $oohq-icon-items_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-items_circle .path4 {
+  &:before {
+    content: $oohq-icon-items_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(241, 102, 114);
+  }
+}
+.oohq-icon-items_circle .path5 {
+  &:before {
+    content: $oohq-icon-items_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-items_circle .path6 {
+  &:before {
+    content: $oohq-icon-items_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(187, 38, 49);
+  }
+}
+.oohq-icon-items_circle .path7 {
+  &:before {
+    content: $oohq-icon-items_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-items_circle .path8 {
+  &:before {
+    content: $oohq-icon-items_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-items .path1 {
+  &:before {
+    content: $oohq-icon-items-path1;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-items .path2 {
+  &:before {
+    content: $oohq-icon-items-path2;  
+    margin-left: -1em;  
+    color: rgb(241, 102, 114);
+  }
+}
+.oohq-icon-items .path3 {
+  &:before {
+    content: $oohq-icon-items-path3;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-items .path4 {
+  &:before {
+    content: $oohq-icon-items-path4;  
+    margin-left: -1em;  
+    color: rgb(187, 38, 49);
+  }
+}
+.oohq-icon-items .path5 {
+  &:before {
+    content: $oohq-icon-items-path5;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-options_circle .path1 {
+  &:before {
+    content: $oohq-icon-options_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-options_circle .path2 {
+  &:before {
+    content: $oohq-icon-options_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-options_circle .path3 {
+  &:before {
+    content: $oohq-icon-options_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-options_circle .path4 {
+  &:before {
+    content: $oohq-icon-options_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-options_circle .path5 {
+  &:before {
+    content: $oohq-icon-options_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-options_circle .path6 {
+  &:before {
+    content: $oohq-icon-options_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-options_circle .path7 {
+  &:before {
+    content: $oohq-icon-options_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(135, 179, 178);
+  }
+}
+.oohq-icon-options .path1 {
+  &:before {
+    content: $oohq-icon-options-path1;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-options .path2 {
+  &:before {
+    content: $oohq-icon-options-path2;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-options .path3 {
+  &:before {
+    content: $oohq-icon-options-path3;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-options .path4 {
+  &:before {
+    content: $oohq-icon-options-path4;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-earnings_circle .path1 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-earnings_circle .path2 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-earnings_circle .path3 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-earnings_circle .path4 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-earnings_circle .path5 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-earnings_circle .path6 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-earnings_circle .path7 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-earnings_circle .path8 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-earnings_circle .path9 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-earnings_circle .path10 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-earnings_circle .path11 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-earnings_circle .path12 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-earnings_circle .path13 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path13;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-earnings_circle .path14 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path14;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-earnings_circle .path15 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path15;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-earnings_circle .path16 {
+  &:before {
+    content: $oohq-icon-earnings_circle-path16;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-earnings .path1 {
+  &:before {
+    content: $oohq-icon-earnings-path1;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-earnings .path2 {
+  &:before {
+    content: $oohq-icon-earnings-path2;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-earnings .path3 {
+  &:before {
+    content: $oohq-icon-earnings-path3;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-earnings .path4 {
+  &:before {
+    content: $oohq-icon-earnings-path4;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-earnings .path5 {
+  &:before {
+    content: $oohq-icon-earnings-path5;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-earnings .path6 {
+  &:before {
+    content: $oohq-icon-earnings-path6;  
+    margin-left: -1em;  
+    color: rgb(207, 213, 224);
+  }
+}
+.oohq-icon-earnings .path7 {
+  &:before {
+    content: $oohq-icon-earnings-path7;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-earnings .path8 {
+  &:before {
+    content: $oohq-icon-earnings-path8;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-earnings .path9 {
+  &:before {
+    content: $oohq-icon-earnings-path9;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-earnings .path10 {
+  &:before {
+    content: $oohq-icon-earnings-path10;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-earnings .path11 {
+  &:before {
+    content: $oohq-icon-earnings-path11;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-earnings .path12 {
+  &:before {
+    content: $oohq-icon-earnings-path12;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-earnings .path13 {
+  &:before {
+    content: $oohq-icon-earnings-path13;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-earnings .path14 {
+  &:before {
+    content: $oohq-icon-earnings-path14;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-menu_circle .path1 {
+  &:before {
+    content: $oohq-icon-menu_circle-path1;  
+    color: rgb(26, 36, 45);
+  }
+}
+.oohq-icon-menu_circle .path2 {
+  &:before {
+    content: $oohq-icon-menu_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(9, 12, 15);
+  }
+}
+.oohq-icon-menu_circle .path3 {
+  &:before {
+    content: $oohq-icon-menu_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-menu_circle .path4 {
+  &:before {
+    content: $oohq-icon-menu_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-menu_circle .path5 {
+  &:before {
+    content: $oohq-icon-menu_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-menu_circle .path6 {
+  &:before {
+    content: $oohq-icon-menu_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu_circle .path7 {
+  &:before {
+    content: $oohq-icon-menu_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-menu_circle .path8 {
+  &:before {
+    content: $oohq-icon-menu_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu_circle .path9 {
+  &:before {
+    content: $oohq-icon-menu_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu_circle .path10 {
+  &:before {
+    content: $oohq-icon-menu_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu_circle .path11 {
+  &:before {
+    content: $oohq-icon-menu_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu_circle .path12 {
+  &:before {
+    content: $oohq-icon-menu_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu_circle .path13 {
+  &:before {
+    content: $oohq-icon-menu_circle-path13;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu_circle .path14 {
+  &:before {
+    content: $oohq-icon-menu_circle-path14;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-menu .path1 {
+  &:before {
+    content: $oohq-icon-menu-path1;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-menu .path2 {
+  &:before {
+    content: $oohq-icon-menu-path2;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-menu .path3 {
+  &:before {
+    content: $oohq-icon-menu-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-menu .path4 {
+  &:before {
+    content: $oohq-icon-menu-path4;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu .path5 {
+  &:before {
+    content: $oohq-icon-menu-path5;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-menu .path6 {
+  &:before {
+    content: $oohq-icon-menu-path6;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu .path7 {
+  &:before {
+    content: $oohq-icon-menu-path7;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu .path8 {
+  &:before {
+    content: $oohq-icon-menu-path8;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu .path9 {
+  &:before {
+    content: $oohq-icon-menu-path9;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu .path10 {
+  &:before {
+    content: $oohq-icon-menu-path10;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu .path11 {
+  &:before {
+    content: $oohq-icon-menu-path11;  
+    margin-left: -1em;  
+    color: rgb(172, 179, 186);
+  }
+}
+.oohq-icon-menu .path12 {
+  &:before {
+    content: $oohq-icon-menu-path12;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-promos_circle2 .path1 {
+  &:before {
+    content: $oohq-icon-promos_circle2-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-promos_circle2 .path2 {
+  &:before {
+    content: $oohq-icon-promos_circle2-path2;  
+    margin-left: -1em;  
+    color: rgb(17, 20, 24);
+  }
+}
+.oohq-icon-promos_circle2 .path3 {
+  &:before {
+    content: $oohq-icon-promos_circle2-path3;  
+    margin-left: -1em;  
+    color: rgb(242, 113, 122);
+  }
+}
+.oohq-icon-promos_circle2 .path4 {
+  &:before {
+    content: $oohq-icon-promos_circle2-path4;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-promos_circle2 .path5 {
+  &:before {
+    content: $oohq-icon-promos_circle2-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-promos_circle2 .path6 {
+  &:before {
+    content: $oohq-icon-promos_circle2-path6;  
+    margin-left: -1em;  
+    color: rgb(209, 210, 211);
+  }
+}
+.oohq-icon-promos_circle2 .path7 {
+  &:before {
+    content: $oohq-icon-promos_circle2-path7;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-promos_circle2 .path8 {
+  &:before {
+    content: $oohq-icon-promos_circle2-path8;  
+    margin-left: -1em;  
+    color: rgb(113, 155, 154);
+  }
+}
+.oohq-icon-promos_circle2 .path9 {
+  &:before {
+    content: $oohq-icon-promos_circle2-path9;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-promos_circle2 .path10 {
+  &:before {
+    content: $oohq-icon-promos_circle2-path10;  
+    margin-left: -1em;  
+    color: rgb(113, 155, 154);
+  }
+}
+.oohq-icon-promos2 .path1 {
+  &:before {
+    content: $oohq-icon-promos2-path1;  
+    color: rgb(242, 113, 122);
+  }
+}
+.oohq-icon-promos2 .path2 {
+  &:before {
+    content: $oohq-icon-promos2-path2;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-promos2 .path3 {
+  &:before {
+    content: $oohq-icon-promos2-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-promos2 .path4 {
+  &:before {
+    content: $oohq-icon-promos2-path4;  
+    margin-left: -1em;  
+    color: rgb(209, 210, 211);
+  }
+}
+.oohq-icon-promos2 .path5 {
+  &:before {
+    content: $oohq-icon-promos2-path5;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-promos2 .path6 {
+  &:before {
+    content: $oohq-icon-promos2-path6;  
+    margin-left: -1em;  
+    color: rgb(113, 155, 154);
+  }
+}
+.oohq-icon-promos2 .path7 {
+  &:before {
+    content: $oohq-icon-promos2-path7;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-promos2 .path8 {
+  &:before {
+    content: $oohq-icon-promos2-path8;  
+    margin-left: -1em;  
+    color: rgb(113, 155, 154);
+  }
+}
+.oohq-icon-setup_circle .path1 {
+  &:before {
+    content: $oohq-icon-setup_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-setup_circle .path2 {
+  &:before {
+    content: $oohq-icon-setup_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(17, 22, 27);
+  }
+}
+.oohq-icon-setup_circle .path3 {
+  &:before {
+    content: $oohq-icon-setup_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(17, 22, 27);
+  }
+}
+.oohq-icon-setup_circle .path4 {
+  &:before {
+    content: $oohq-icon-setup_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-setup_circle .path5 {
+  &:before {
+    content: $oohq-icon-setup_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(238, 107, 117);
+  }
+}
+.oohq-icon-setup_circle .path6 {
+  &:before {
+    content: $oohq-icon-setup_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-setup_circle .path7 {
+  &:before {
+    content: $oohq-icon-setup_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(242, 108, 118);
+  }
+}
+.oohq-icon-setup_circle .path8 {
+  &:before {
+    content: $oohq-icon-setup_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-setup .path1 {
+  &:before {
+    content: $oohq-icon-setup-path1;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-setup .path2 {
+  &:before {
+    content: $oohq-icon-setup-path2;  
+    margin-left: -1em;  
+    color: rgb(238, 107, 117);
+  }
+}
+.oohq-icon-setup .path3 {
+  &:before {
+    content: $oohq-icon-setup-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-setup .path4 {
+  &:before {
+    content: $oohq-icon-setup-path4;  
+    margin-left: -1em;  
+    color: rgb(242, 108, 118);
+  }
+}
+.oohq-icon-setup .path5 {
+  &:before {
+    content: $oohq-icon-setup-path5;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-customers_circle .path1 {
+  &:before {
+    content: $oohq-icon-customers_circle-path1;  
+    color: rgb(26, 36, 45);
+  }
+}
+.oohq-icon-customers_circle .path2 {
+  &:before {
+    content: $oohq-icon-customers_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(12, 17, 20);
+  }
+}
+.oohq-icon-customers_circle .path3 {
+  &:before {
+    content: $oohq-icon-customers_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(201, 205, 211);
+  }
+}
+.oohq-icon-customers_circle .path4 {
+  &:before {
+    content: $oohq-icon-customers_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-customers_circle .path5 {
+  &:before {
+    content: $oohq-icon-customers_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(201, 205, 211);
+  }
+}
+.oohq-icon-customers_circle .path6 {
+  &:before {
+    content: $oohq-icon-customers_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-customers_circle .path7 {
+  &:before {
+    content: $oohq-icon-customers_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(204, 50, 61);
+  }
+}
+.oohq-icon-customers_circle .path8 {
+  &:before {
+    content: $oohq-icon-customers_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-customers_circle .path9 {
+  &:before {
+    content: $oohq-icon-customers_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(204, 50, 61);
+  }
+}
+.oohq-icon-customers_circle .path10 {
+  &:before {
+    content: $oohq-icon-customers_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-customers_circle .path11 {
+  &:before {
+    content: $oohq-icon-customers_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(117, 158, 157);
+  }
+}
+.oohq-icon-customers_circle .path12 {
+  &:before {
+    content: $oohq-icon-customers_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-customers_circle .path13 {
+  &:before {
+    content: $oohq-icon-customers_circle-path13;  
+    margin-left: -1em;  
+    color: rgb(117, 158, 157);
+  }
+}
+.oohq-icon-customers_circle .path14 {
+  &:before {
+    content: $oohq-icon-customers_circle-path14;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-customers_circle .path15 {
+  &:before {
+    content: $oohq-icon-customers_circle-path15;  
+    margin-left: -1em;  
+    color: rgb(179, 186, 198);
+  }
+}
+.oohq-icon-customers_circle .path16 {
+  &:before {
+    content: $oohq-icon-customers_circle-path16;  
+    margin-left: -1em;  
+    color: rgb(206, 213, 224);
+  }
+}
+.oohq-icon-customers .path1 {
+  &:before {
+    content: $oohq-icon-customers-path1;  
+    color: rgb(201, 205, 211);
+  }
+}
+.oohq-icon-customers .path2 {
+  &:before {
+    content: $oohq-icon-customers-path2;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-customers .path3 {
+  &:before {
+    content: $oohq-icon-customers-path3;  
+    margin-left: -1em;  
+    color: rgb(201, 205, 211);
+  }
+}
+.oohq-icon-customers .path4 {
+  &:before {
+    content: $oohq-icon-customers-path4;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-customers .path5 {
+  &:before {
+    content: $oohq-icon-customers-path5;  
+    margin-left: -1em;  
+    color: rgb(204, 50, 61);
+  }
+}
+.oohq-icon-customers .path6 {
+  &:before {
+    content: $oohq-icon-customers-path6;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-customers .path7 {
+  &:before {
+    content: $oohq-icon-customers-path7;  
+    margin-left: -1em;  
+    color: rgb(204, 50, 61);
+  }
+}
+.oohq-icon-customers .path8 {
+  &:before {
+    content: $oohq-icon-customers-path8;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-customers .path9 {
+  &:before {
+    content: $oohq-icon-customers-path9;  
+    margin-left: -1em;  
+    color: rgb(117, 158, 157);
+  }
+}
+.oohq-icon-customers .path10 {
+  &:before {
+    content: $oohq-icon-customers-path10;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-customers .path11 {
+  &:before {
+    content: $oohq-icon-customers-path11;  
+    margin-left: -1em;  
+    color: rgb(117, 158, 157);
+  }
+}
+.oohq-icon-customers .path12 {
+  &:before {
+    content: $oohq-icon-customers-path12;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-customers .path13 {
+  &:before {
+    content: $oohq-icon-customers-path13;  
+    margin-left: -1em;  
+    color: rgb(179, 186, 198);
+  }
+}
+.oohq-icon-customers .path14 {
+  &:before {
+    content: $oohq-icon-customers-path14;  
+    margin-left: -1em;  
+    color: rgb(206, 213, 224);
+  }
+}
+.oohq-icon-orders_circle .path1 {
+  &:before {
+    content: $oohq-icon-orders_circle-path1;  
+    color: rgb(26, 36, 45);
+  }
+}
+.oohq-icon-orders_circle .path2 {
+  &:before {
+    content: $oohq-icon-orders_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(12, 17, 20);
+  }
+}
+.oohq-icon-orders_circle .path3 {
+  &:before {
+    content: $oohq-icon-orders_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-orders_circle .path4 {
+  &:before {
+    content: $oohq-icon-orders_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-orders_circle .path5 {
+  &:before {
+    content: $oohq-icon-orders_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-orders_circle .path6 {
+  &:before {
+    content: $oohq-icon-orders_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-orders .path1 {
+  &:before {
+    content: $oohq-icon-orders-path1;  
+    color: rgb(230, 233, 238);
+  }
+}
+.oohq-icon-orders .path2 {
+  &:before {
+    content: $oohq-icon-orders-path2;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-orders .path3 {
+  &:before {
+    content: $oohq-icon-orders-path3;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-orders .path4 {
+  &:before {
+    content: $oohq-icon-orders-path4;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-payments_circle .path1 {
+  &:before {
+    content: $oohq-icon-payments_circle-path1;  
+    color: rgb(27, 36, 46);
+  }
+}
+.oohq-icon-payments_circle .path2 {
+  &:before {
+    content: $oohq-icon-payments_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(16, 20, 22);
+  }
+}
+.oohq-icon-payments_circle .path3 {
+  &:before {
+    content: $oohq-icon-payments_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-payments_circle .path4 {
+  &:before {
+    content: $oohq-icon-payments_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(111, 147, 146);
+  }
+}
+.oohq-icon-payments_circle .path5 {
+  &:before {
+    content: $oohq-icon-payments_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(1, 1, 1);
+  }
+}
+.oohq-icon-payments_circle .path6 {
+  &:before {
+    content: $oohq-icon-payments_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-payments_circle .path7 {
+  &:before {
+    content: $oohq-icon-payments_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-payments_circle .path8 {
+  &:before {
+    content: $oohq-icon-payments_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-payments_circle .path9 {
+  &:before {
+    content: $oohq-icon-payments_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-payments_circle .path10 {
+  &:before {
+    content: $oohq-icon-payments_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-payments_circle .path11 {
+  &:before {
+    content: $oohq-icon-payments_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-payments_circle .path12 {
+  &:before {
+    content: $oohq-icon-payments_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-payments_circle .path13 {
+  &:before {
+    content: $oohq-icon-payments_circle-path13;  
+    margin-left: -1em;  
+    color: rgb(255, 209, 93);
+  }
+}
+.oohq-icon-payments .path1 {
+  &:before {
+    content: $oohq-icon-payments-path1;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-payments .path2 {
+  &:before {
+    content: $oohq-icon-payments-path2;  
+    margin-left: -1em;  
+    color: rgb(111, 147, 146);
+  }
+}
+.oohq-icon-payments .path3 {
+  &:before {
+    content: $oohq-icon-payments-path3;  
+    margin-left: -1em;  
+    color: rgb(1, 1, 1);
+  }
+}
+.oohq-icon-payments .path4 {
+  &:before {
+    content: $oohq-icon-payments-path4;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 189);
+  }
+}
+.oohq-icon-payments .path5 {
+  &:before {
+    content: $oohq-icon-payments-path5;  
+    margin-left: -1em;  
+    color: rgb(231, 233, 237);
+  }
+}
+.oohq-icon-payments .path6 {
+  &:before {
+    content: $oohq-icon-payments-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-payments .path7 {
+  &:before {
+    content: $oohq-icon-payments-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-payments .path8 {
+  &:before {
+    content: $oohq-icon-payments-path8;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-payments .path9 {
+  &:before {
+    content: $oohq-icon-payments-path9;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-payments .path10 {
+  &:before {
+    content: $oohq-icon-payments-path10;  
+    margin-left: -1em;  
+    color: rgb(237, 66, 73);
+  }
+}
+.oohq-icon-payments .path11 {
+  &:before {
+    content: $oohq-icon-payments-path11;  
+    margin-left: -1em;  
+    color: rgb(255, 209, 93);
+  }
+}
+.oohq-icon-report_circle .path1 {
+  &:before {
+    content: $oohq-icon-report_circle-path1;  
+    color: rgb(26, 36, 45);
+  }
+}
+.oohq-icon-report_circle .path2 {
+  &:before {
+    content: $oohq-icon-report_circle-path2;  
+    margin-left: -1em;  
+    color: rgb(12, 17, 20);
+  }
+}
+.oohq-icon-report_circle .path3 {
+  &:before {
+    content: $oohq-icon-report_circle-path3;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report_circle .path4 {
+  &:before {
+    content: $oohq-icon-report_circle-path4;  
+    margin-left: -1em;  
+    color: rgb(213, 214, 219);
+  }
+}
+.oohq-icon-report_circle .path5 {
+  &:before {
+    content: $oohq-icon-report_circle-path5;  
+    margin-left: -1em;  
+    color: rgb(213, 214, 219);
+  }
+}
+.oohq-icon-report_circle .path6 {
+  &:before {
+    content: $oohq-icon-report_circle-path6;  
+    margin-left: -1em;  
+    color: rgb(213, 214, 219);
+  }
+}
+.oohq-icon-report_circle .path7 {
+  &:before {
+    content: $oohq-icon-report_circle-path7;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-report_circle .path8 {
+  &:before {
+    content: $oohq-icon-report_circle-path8;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-report_circle .path9 {
+  &:before {
+    content: $oohq-icon-report_circle-path9;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-report_circle .path10 {
+  &:before {
+    content: $oohq-icon-report_circle-path10;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report_circle .path11 {
+  &:before {
+    content: $oohq-icon-report_circle-path11;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report_circle .path12 {
+  &:before {
+    content: $oohq-icon-report_circle-path12;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report_circle .path13 {
+  &:before {
+    content: $oohq-icon-report_circle-path13;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report_circle .path14 {
+  &:before {
+    content: $oohq-icon-report_circle-path14;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report_circle .path15 {
+  &:before {
+    content: $oohq-icon-report_circle-path15;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report_circle .path16 {
+  &:before {
+    content: $oohq-icon-report_circle-path16;  
+    margin-left: -1em;  
+    color: rgb(39, 162, 219);
+  }
+}
+.oohq-icon-report_circle .path17 {
+  &:before {
+    content: $oohq-icon-report_circle-path17;  
+    margin-left: -1em;  
+    color: rgb(252, 212, 98);
+  }
+}
+.oohq-icon-report_circle .path18 {
+  &:before {
+    content: $oohq-icon-report_circle-path18;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-report_circle .path19 {
+  &:before {
+    content: $oohq-icon-report_circle-path19;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-report .path1 {
+  &:before {
+    content: $oohq-icon-report-path1;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report .path2 {
+  &:before {
+    content: $oohq-icon-report-path2;  
+    margin-left: -1em;  
+    color: rgb(213, 214, 219);
+  }
+}
+.oohq-icon-report .path3 {
+  &:before {
+    content: $oohq-icon-report-path3;  
+    margin-left: -1em;  
+    color: rgb(213, 214, 219);
+  }
+}
+.oohq-icon-report .path4 {
+  &:before {
+    content: $oohq-icon-report-path4;  
+    margin-left: -1em;  
+    color: rgb(213, 214, 219);
+  }
+}
+.oohq-icon-report .path5 {
+  &:before {
+    content: $oohq-icon-report-path5;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+.oohq-icon-report .path6 {
+  &:before {
+    content: $oohq-icon-report-path6;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-report .path7 {
+  &:before {
+    content: $oohq-icon-report-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.oohq-icon-report .path8 {
+  &:before {
+    content: $oohq-icon-report-path8;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report .path9 {
+  &:before {
+    content: $oohq-icon-report-path9;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report .path10 {
+  &:before {
+    content: $oohq-icon-report-path10;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report .path11 {
+  &:before {
+    content: $oohq-icon-report-path11;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report .path12 {
+  &:before {
+    content: $oohq-icon-report-path12;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report .path13 {
+  &:before {
+    content: $oohq-icon-report-path13;  
+    margin-left: -1em;  
+    color: rgb(235, 240, 243);
+  }
+}
+.oohq-icon-report .path14 {
+  &:before {
+    content: $oohq-icon-report-path14;  
+    margin-left: -1em;  
+    color: rgb(39, 162, 219);
+  }
+}
+.oohq-icon-report .path15 {
+  &:before {
+    content: $oohq-icon-report-path15;  
+    margin-left: -1em;  
+    color: rgb(252, 212, 98);
+  }
+}
+.oohq-icon-report .path16 {
+  &:before {
+    content: $oohq-icon-report-path16;  
+    margin-left: -1em;  
+    color: rgb(146, 188, 188);
+  }
+}
+.oohq-icon-report .path17 {
+  &:before {
+    content: $oohq-icon-report-path17;  
+    margin-left: -1em;  
+    color: rgb(237, 65, 72);
+  }
+}
+

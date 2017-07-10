@@ -9,12 +9,8 @@ var browserSync = require('browser-sync').create();
 
 gulp.task('jshint', function () {
     gulp.src([
-        './app/app.js',
-        './app/controllers/*.js',
-        './app/directives/*.js',
-        './app/provides/*.js',
-        './app/services/*.js',
-        '!./app/*min.js'
+        '!./app/*min.js',
+        './app/assets/scripts/master.js'
     ])
     .pipe(jshint())
     .pipe(jshint.reporter('default'))
@@ -25,12 +21,8 @@ gulp.task('jshint', function () {
 
 gulp.task('compile', function () {
     return gulp.src([ 
-        './app/app.js',
-        './app/controllers/*.js',
-        './app/directives/*.js',
-        './app/provides/*.js',
-        './app/services/*.js',
-        '!./app/*min.js'
+        '!./app/*min.js',
+        './app/assets/scripts/master.js'
     ])
     .pipe(concat('master.min.js'))
     .pipe(uglify({ mangle: false }))
@@ -46,7 +38,7 @@ gulp.task('browserSync', function() {
 });
 
 gulp.task('sass', function () {
-  return gulp.src('./app/assets/styles/sass/*.scss')
+  return gulp.src('./app/assets/styles/sass/master.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest('./app/assets/styles/'))
     .pipe(browserSync.reload({
@@ -57,12 +49,8 @@ gulp.task('sass', function () {
 gulp.task('watch', ['jshint','compile','sass','browserSync'], function () {
    
     gulp.watch([
-        './app/app.js',
-        './app/controllers/*.js',
-        './app/directives/*.js',
-        './app/provides/*.js',
-        './app/services/*.js',
-        '!./app/*min.js'
+        '!./app/*min.js',
+        './app/assets/scripts/*.js'
     ],['compile','jshint']);
 
     gulp.watch([

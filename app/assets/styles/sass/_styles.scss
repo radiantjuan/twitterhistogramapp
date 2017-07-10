@@ -1,0 +1,100 @@
+body,html {
+	height:100%;
+}
+
+body{
+	background-image: url('../images/OMO_bg.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+	header {
+		background-color:transparent;
+		border-bottom:2px solid #3c3b3c;
+		.main-menu-nav{
+			ul{
+				list-style:none;
+				margin:0px;
+				padding:0px;
+				&.main-menu-nav-group{
+					li.main-menu-nav-group-items{
+						display:inline-block;
+						margin:0px;
+						padding:0px;
+						padding-left:1em;
+						padding-right:1em;
+						transition:0.2s;
+						i.icon{
+							font-size: 5em;
+							padding-top:5px;
+							
+						}
+						&.home-group-item{
+							padding:11px 0px 11px 0px;
+							.icon-home{
+								background-image: url('../images/home.svg');
+								background-repeat:no-repeat;
+								display:inline-block;
+								width: 3.3em;
+								height: 3.3em;
+								margin-right:15px;
+							}
+							.home-span{
+								display:inline-block;
+								vertical-align: top;
+							}
+						}
+
+						a{
+							color:#fff;
+							font-family: $font-base;
+							font-size: 0.9em;
+							padding-left:0px;
+							transition:0.2s;
+							height:100%;
+							.link-text{
+								margin-top:1.2em;
+								display:inline-block;
+							}
+						}
+
+						&:hover{
+							transition:0.2s;
+							background-color:#3c3b3c;
+							a{
+								color:#fff;
+								transition:0.2s;
+							}
+						}
+
+					}
+				}
+				&.account-menu-group{
+					.account-menu-group-items{
+						display:inline-block;
+						margin:0px;
+						padding:0px;
+						padding-left:1em;
+						padding-right:1em;
+						transition:0.2s;
+						span.icon{
+							font-size: 5em;
+							padding-top:5px;
+						}
+
+						a{
+							color:#fff;
+							font-family: $font-base;
+							font-size: 0.9em;
+							margin-top:1.2em;
+							padding-left:0px;
+							transition:0.2s;
+						}
+
+					}
+				}
+
+			}
+		}
+	}	
+}
